@@ -14,13 +14,9 @@ def is_year_leap(year):
 
 ''' 2)'''
 def is_triangle(a,b,c):
-    if a + b > c:
-        return 'True'
-    elif a + c > b:
-        return 'True'
-    elif c + b > a:
+    if a + b > c and a + c > b and c + b > a:
         return 'True'
     else:
         return 'False'
 
-print(is_triangle(3,6,8))
+#print(is_triangle(1,6,'gfg'))
