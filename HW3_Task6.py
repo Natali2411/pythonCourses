@@ -13,4 +13,4 @@ def is_type_of_triangle(a,b,c):
         res = 'Versatile triangle'
     return res
 
-print(is_type_of_triangle(5,6,0))
+#print(is_type_of_triangle(5,6,0))

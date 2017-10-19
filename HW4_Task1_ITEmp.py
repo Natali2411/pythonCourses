@@ -3,7 +3,7 @@ from HW4_Task1_Emp import Employee
 class ITEmployee(Employee):
     def __init__(self, *args, **kwargs):
         Employee.__init__(self, *args, **kwargs)
-        self.skills = []
+    skills = []
 
     def add_skills(self, skill_name):
         self.skills.append(skill_name)
